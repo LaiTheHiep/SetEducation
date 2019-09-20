@@ -1,0 +1,27 @@
+{
+  "title": "Welcome to react using react-i18next",
+  "hello world": "Hello world",
+  "login": "Login",
+  "login_page": {
+    "title_login_form": "Đăng nhập",
+    "login_form_desc": "Sign In to your account",
+    "forgot_password": "Forgot password",
+    "signup_title": "Sign up",
+    "register_now": "Register now!"
+  },
+  "dashboard_page": {
+    "navigation_name": "Dashboard"
+  },
+  "devices_page": {
+    "navigation_name": "Devices"
+  },
+  "device_properties_page": {
+    "navigation_name": "Device Properties"
+  },
+  "device_type_page": {
+    "navigation_name": "Device Types"
+  },
+  "user_page": {
+    "navigation_name": "Users"
+  }
+}
