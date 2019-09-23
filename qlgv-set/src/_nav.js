@@ -23,7 +23,12 @@ export default{
     {
       name: 'Đăng ký đồ án',
       url: '/projects',
-      icon: 'icon-graduation',    
-    },    
+      icon: 'cui-layers',    
+    },
+    {
+      name: 'Tốt nghiệp',
+      url: '/graduation',
+      icon: 'icon-graduation',
+    }
   ]
 };
