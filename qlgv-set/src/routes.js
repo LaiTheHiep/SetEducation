@@ -3,7 +3,10 @@ const Dashboard = React.lazy(() => import('./views/Components/Pages/Dashboard'))
 const Groups = React.lazy(() => import('./views/Components/Pages/Groups'));
 const RegisterStudy = React.lazy(() => import('./views/Components/Pages/RegisterStudy'));
 const ScheduleStudy = React.lazy(() => import('./views/Components/Pages/ScheduleStudy'));
-const SignUpProject = React.lazy(() => import('./views/Components/Pages/SignUpProject'));
+const FirstProject = React.lazy(() => import('./views/Components/Pages/ProjectRegister/Project'));
+const SecondProject = React.lazy(() => import('./views/Components/Pages/ProjectRegister/Project'));
+const ThirdProject = React.lazy(() => import('./views/Components/Pages/ProjectRegister/Project'));
+const GraduateProject = React.lazy(() => import('./views/Components/Pages/ProjectRegister/Project'));
 
 const routes = [
     { path: '/', exact: true, name: 'Home' },
@@ -11,7 +14,10 @@ const routes = [
     { path: '/groups', name: 'Groups', component: Groups},
     { path: '/registers', name: 'RegisterStudy', component: RegisterStudy},
     { path: '/schedules', name: 'ScheduleStudy', component: ScheduleStudy},
-    { path: '/projects', name: 'SignUpProject', component: SignUpProject},
+    { path: '/projects/prj1', name: 'FirstProject', component: FirstProject},  
+    { path: '/projects/prj2', name: 'SecondProject', component: SecondProject},
+    { path: '/projects/prj3', name: 'ThirdProject', component: ThirdProject},
+    { path: '/projects/datn', name: 'GraduateProject', component: GraduateProject},  
 ];
 
 export default routes;

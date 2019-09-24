@@ -22,8 +22,30 @@ export default{
     },
     {
       name: 'Đăng ký đồ án',
-      url: '/projects',
+      url: '',
       icon: 'icon-graduation',    
+      children: [
+        {
+          name: 'Project 1',
+          url: '/projects/prj1',
+          icon: 'icon-puzzle',
+        },
+        {
+          name: 'Project 2',
+          url: '/projects/prj2',
+          icon: 'icon-puzzle',
+        },
+        {
+          name: 'Project 3',
+          url: '/projects/prj3',
+          icon: 'icon-puzzle',
+        },
+        {
+          name: 'Đồ án tốt nghiệp',
+          url: '/projects/datn',
+          icon: 'icon-puzzle',
+        },
+      ],
     },    
   ]
 };
